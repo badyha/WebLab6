@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f9f6f1 0%, #e8f5e9 100%);
+  min-height: 100vh;
+}
+
+#root {
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(45, 80, 22, 0.15);
+}
+
+.recipe {
+  margin-bottom: 30px;
+}
+
+.recipe h1 {
+  color: #2d5016;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: space-around;
+  background: #f0f8f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #4a7c59;
+}
+
+.ingredients {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4a7c59;
+}
+
+.ingredients h2 {
+  color: #2d5016;
+  margin-top: 0;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients li {
+  padding: 8px 0;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ingredients li:last-child {
+  border-bottom: none;
+}
+
+.steps {
+  background: #f0f8f0;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #8ac926;
+}
+
+.steps h2 {
+  color: #2d5016;
+  margin-top: 0;
+}
+
+.steps ol {
+  padding-left: 20px;
+  color: #333;
+}
+
+.steps li {
+  padding: 10px 0;
+  line-height: 1.6;
+}
