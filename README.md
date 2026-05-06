@@ -28,7 +28,7 @@ npm run dev
 - Vite (bundler)
 - CSS
 
-##學習матеріали
+## Матеріали
 
 - React компоненти
 - JSX синтаксис
